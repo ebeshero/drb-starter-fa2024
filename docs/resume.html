@@ -7,32 +7,12 @@
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-        <style>
-            body {
-                background: #679ff7 ;
-               
-            }
-            
-            p { background: yellow;
-                padding: 2em;
-                margin-left:5em;
-                line-height: 1.5em; 
-            }
-            
-            ul { background: purple;
-                 color: white;
-            }
-            
-            nav.list {background:white; }
-            
-            
-            
-          </style>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <nav class="list">
-            <ul>
+            <ul class="list">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
                 <li><a href="resume.html">Resume</a></li>
@@ -43,34 +23,26 @@
         </nav>
         
         
-        <h1>Resume</h1>
-        <p>Here is some sample HTML to look at. This is a body paragraph with some
-                <strong>inline</strong> code to feature some text. Here is <a
-                href="https://behrend.psu.edu/penn-state-behrend">a link to an external
-            website</a>.</p>
-        <p>One of the best resources for learning HTML is <a href="https://www.w3schools.com/html/default.asp">w3Schools</a>. 
-            Here is a reference for <a href="https://htmlcolorcodes.com/">color codes you can use for styling</a>.</p>
-        <p>Each p element is a <strong>block</strong> element designed to make a block on the
-            page.</p>
-        <h2>What are block elements good for?</h2>
-        <p>The next element after this is a ul, or <q>unordered list</q>. It makes a bulleted list.</p>
-        <ul>
-            <li>headings</li>
-            <li>paragraphs</li>
-            <li>lists</li>
-            <li>tables</li>
-            <li>images</li>
-        </ul>
+      <section class="resume">
+          <h1>Resume</h1>
+          
+          <div class="education">
+              <h2>Education</h2>
+              
+              <ul>
+                 <li>Digit 100</li> 
+                  <li>Math 21</li>
+                  
+              </ul>
+            
+              
+          </div>
         
-        <p>How about we look at an ol element, or <q>ordered</q> list? The code looks very similar to the <q>unordered</q> list. 
-            You have to see the difference by viewing in a web browser.</p>
-        <ol>
-            <li>morning</li>
-            <li>noon</li>
-            <li>afternoon</li>
-            <li>evening</li>
-            <li>night</li>
-        </ol>
+      
+      
+      
+      
+      </section>
         <figure>
             <img src="images/newt-mosaic4.png"/>
             <figcaption>a stylized image of a firebelly newt that Dr. B made as a web logo on <a href="https://newtfire.org">newtfire.org</a></figcaption>

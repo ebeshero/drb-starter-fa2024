@@ -1,0 +1,36 @@
+body {
+    background: #679ff7;
+     font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {font-size:2em; }
+
+
+p {
+    background: yellow;
+    padding: 2em;
+    margin-left: 5em;
+    line-height: 1.5em;
+}
+
+ul {
+    background: lavender;
+    
+}
+
+nav ul.list {
+    background: white;
+}
+
+section.resume {
+    background:#FFE4C4;
+    line-height:1.5em;
+
+}
+
+div.education {
+        margin-left:5em;
+    
+}
+
