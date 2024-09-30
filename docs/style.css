@@ -4,6 +4,36 @@ body {
 
 }
 
+section.flex {
+    
+    display:flex;
+    background-color:papayawhip;
+    
+    
+}
+
+figure.photo {
+    
+    background-color:green;
+    flex:1
+}
+
+figure.widephoto { 
+
+background-color:green;
+margin:auto;
+flex:3
+}
+
+
+img#llama {
+    width:70%;
+    
+}
+
+
+
+
 h1 {font-size:2em; }
 
 
@@ -33,4 +63,6 @@ div.education {
         margin-left:5em;
     
 }
+
+
 
