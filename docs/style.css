@@ -1,40 +1,47 @@
 body {
-    background: #679ff7;
+    background-color: #679ff7;
      font-family: Arial, Helvetica, sans-serif;
 
+}
+
+nav {
+    background-color:lemonchiffon;
 }
 
 section.flex {
     
     display:flex;
-    background-color:papayawhip;
+    background-color:green;
     
     
 }
 
 figure.photo {
     
-    background-color:green;
+    background-color:lemonchiffon;
     flex:1
 }
 
 figure.widephoto { 
 
-background-color:green;
+background-color:aqua;
 margin:auto;
 flex:3
 }
 
 
 img#llama {
-    width:70%;
+    width:50vw;
+    max-width:800px;
     
 }
 
 
 
 
-h1 {font-size:2em; }
+h1 {font-size:4em; }
+
+h2 {font-size:1.5em;}
 
 
 p {
