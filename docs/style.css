@@ -8,6 +8,34 @@ nav {
     background-color:lemonchiffon;
 }
 
+
+section.flexBox{ 
+background-color:orange;
+display:flex;
+}
+
+figure {flex:1;
+ background-color:aqua;
+
+}
+
+figure#aquarium { flex:3;
+
+}
+
+img { width: 80%;}
+
+
+
+
+
+
+
+
+
+
+
+
 section.flex {
     
     display:flex;
