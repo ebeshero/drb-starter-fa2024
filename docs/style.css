@@ -89,6 +89,10 @@ div.education {
         margin-left:5em;
     
 }
+/* Dr. B:  My simple styling for the Text Analysis section from class on 6 November 2025 */
+ /* This is designed to help make the images expand a bit so the text inside them is more legible. */
+section.analysis { width: 100%;}
 
+figure.screenCap { width:100vw}
 
 
