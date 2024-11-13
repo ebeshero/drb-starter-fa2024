@@ -91,8 +91,44 @@ div.education {
 }
 /* Dr. B:  My simple styling for the Text Analysis section from class on 6 November 2025 */
  /* This is designed to help make the images expand a bit so the text inside them is more legible. */
-section.analysis { width: 100%;}
+section.analysis { width: 100%;
+display:flex;
+justify-content:space-evenly;
+}
 
-figure.screenCap { width:100vw}
+figure.voyant { flex:2;
+}
+
+figure.antconc {flex:5;}
+
+p.text {flex:1; 
+}
+
+img.ta {width:100%;
+}
+
+img.ant {width:100%;}
+
+img.ant:hover {
+    transform: scale(1.2); 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
