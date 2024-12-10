@@ -1,11 +1,36 @@
 body {
-    background-color: #679ff7;
-     font-family: Arial, Helvetica, sans-serif;
+    background-color:#e6e6e6;
+    font-family: Arial, Helvetica, sans-serif;
+   padding-left:2vw;
+   padding-right:2vw;
 
 }
 
 nav {
     background-color:lemonchiffon;
+    width:100vw;;
+    margin:auto;
+    display:flex;
+    background-color:bisque;
+}
+nav ul {
+    list-style-type:none;
+    margin-left:10vw;
+    margin-right:10vw;
+    width:50vw;
+    
+    
+
+}
+nav ul li {
+   float:left;
+
+}
+nav li a {
+  font-weight:600;
+  display: block;
+  padding: 1em;
+  
 }
 
 
@@ -23,7 +48,6 @@ figure#aquarium { flex:3;
 
 }
 
-img { width: 80%;}
 
 
 
@@ -58,13 +82,12 @@ img#llama {
 
 
 
-h1 {font-size:4em; }
+h1 {font-size:3em; }
 
 h2 {font-size:1.5em;}
 
 
 p {
-    background: yellow;
     padding: 2em;
     margin-left: 5em;
     line-height: 1.5em;
@@ -113,10 +136,10 @@ img.ant:hover {
     transform: scale(1.2); 
     
 }
+footer.flex{display:flex;}
+div.bannerImage img {width:100%; max-width:100px;}
 
-
-
-
+p.license {background-color:silver;}
 
 
 
